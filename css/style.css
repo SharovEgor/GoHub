@@ -1,0 +1,12 @@
+body {
+  font-family: "Brown";
+  position: relative;
+}
+
+.content {
+  width: 100%;
+  max-width: 1234px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */
