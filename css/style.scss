@@ -12,14 +12,9 @@ body {
   max-width: 1234px;
   margin: 0 auto;
 }
+
 /*Start Header section*/
 .Header {
-  background-size: cover;
-  background: url("../img/header-bg.jpg") no-repeat;
-  min-height: 1271px;
-}
-
-.Header__menu {
   position: absolute;
   display: flex;
   justify-content: space-between;
@@ -34,9 +29,6 @@ body {
     font-weight: 700;
     margin-right: 53px;
   }
-  :nth-last-child(2) {
-    margin-right: 32px;
-  }
   button {
     border: none;
     box-shadow: -7px 7px 20px rgba(132, 92, 255, 0.2);
@@ -48,12 +40,29 @@ body {
   }
 }
 
-.Header__text {
+.Header__container {
+  display: flex;
+  align-items: center;
+}
+
+.Header__menu {
+  a:last-child {
+    margin-right: 32px;
+  }
+}
+
+.Main-screen {
+  background-size: cover;
+  background: url("../img/header-bg.jpg") no-repeat;
+  min-height: 1271px;
+}
+
+.Main-screen__text {
   padding-top: 378px;
   max-width: 464px;
 }
 
-.Header__title {
+.Main-screen__title {
   color: $color-headline;
   font-size: 48px;
   font-weight: 700;
@@ -61,7 +70,7 @@ body {
   margin-bottom: 50px;
 }
 
-.Header__description {
+.Main-screen__description {
   margin-bottom: 42px;
   color: $color-description;
   font-size: 23px;
@@ -69,7 +78,7 @@ body {
   line-height: 1.39;
 }
 
-.Header__button {
+.Main-screen__button {
   padding: 15px 24px;
   text-transform: uppercase;
   font-size: 15px;
@@ -79,10 +88,9 @@ body {
   border-radius: 3px;
   background-color: #845cff;
   margin-right: 34px;
-  margin-bottom: 134px;
 }
 
-.Header__link {
+.Main-screen__link {
   font-size: 19px;
   font-weight: 400;
   color: $color-headline;
@@ -92,6 +100,7 @@ body {
 .About-us {
   display: flex;
   justify-content: space-between;
+  margin-top: 134px;
 }
 
 .About-us__item {
@@ -128,6 +137,7 @@ body {
 .About-us__item3 {
   margin-right: 115px;
 }
+
 .About-us__item1 {
   background-color: transparent;
   padding-bottom: 18px;
@@ -146,4 +156,5 @@ body {
     line-height: 1.39;
   }
 }
+
 /*End Header section*/

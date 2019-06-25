@@ -11,12 +11,6 @@ body {
 
 /*Start Header section*/
 .Header {
-  background-size: cover;
-  background: url("../img/header-bg.jpg") no-repeat;
-  min-height: 1271px;
-}
-
-.Header__menu {
   position: absolute;
   display: flex;
   justify-content: space-between;
@@ -25,17 +19,14 @@ body {
   right: 0;
   top: 50px;
 }
-.Header__menu a {
+.Header a {
   text-decoration: none;
   color: #32325d;
   font-size: 19px;
   font-weight: 700;
   margin-right: 53px;
 }
-.Header__menu :nth-last-child(2) {
-  margin-right: 32px;
-}
-.Header__menu button {
+.Header button {
   border: none;
   box-shadow: -7px 7px 20px rgba(132, 92, 255, 0.2);
   border-radius: 3px;
@@ -45,12 +36,27 @@ body {
   font-size: 19px;
 }
 
-.Header__text {
+.Header__container {
+  display: flex;
+  align-items: center;
+}
+
+.Header__menu a:last-child {
+  margin-right: 32px;
+}
+
+.Main-screen {
+  background-size: cover;
+  background: url("../img/header-bg.jpg") no-repeat;
+  min-height: 1271px;
+}
+
+.Main-screen__text {
   padding-top: 378px;
   max-width: 464px;
 }
 
-.Header__title {
+.Main-screen__title {
   color: #32325d;
   font-size: 48px;
   font-weight: 700;
@@ -58,7 +64,7 @@ body {
   margin-bottom: 50px;
 }
 
-.Header__description {
+.Main-screen__description {
   margin-bottom: 42px;
   color: #525f7f;
   font-size: 23px;
@@ -66,7 +72,7 @@ body {
   line-height: 1.39;
 }
 
-.Header__button {
+.Main-screen__button {
   padding: 15px 24px;
   text-transform: uppercase;
   font-size: 15px;
@@ -76,10 +82,9 @@ body {
   border-radius: 3px;
   background-color: #845cff;
   margin-right: 34px;
-  margin-bottom: 134px;
 }
 
-.Header__link {
+.Main-screen__link {
   font-size: 19px;
   font-weight: 400;
   color: #32325d;
@@ -89,6 +94,7 @@ body {
 .About-us {
   display: flex;
   justify-content: space-between;
+  margin-top: 134px;
 }
 
 .About-us__item {
