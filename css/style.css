@@ -9,6 +9,16 @@ body {
   margin: 0 auto;
 }
 
+.Button {
+  border: none;
+  border-radius: 3px;
+}
+.Button:hover {
+  filter: brightness(0.8);
+  box-shadow: -7px 7px 20px rgba(111, 54, 255, 0.2), -7px 7px 20px rgba(111, 54, 255, 0.2);
+  cursor: pointer;
+}
+
 /*Start Header section*/
 .Header {
   position: absolute;
@@ -27,9 +37,7 @@ body {
   margin-right: 53px;
 }
 .Header button {
-  border: none;
   box-shadow: -7px 7px 20px rgba(132, 92, 255, 0.2);
-  border-radius: 3px;
   background-color: #845cff;
   padding: 12px 24px;
   color: #ffffff;
@@ -77,9 +85,7 @@ body {
   text-transform: uppercase;
   font-size: 15px;
   color: white;
-  border: none;
   box-shadow: -7px 7px 20px rgba(111, 54, 255, 0.2);
-  border-radius: 3px;
   background-color: #845cff;
   margin-right: 34px;
 }
