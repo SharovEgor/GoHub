@@ -9,6 +9,16 @@ body {
   margin: 0 auto;
 }
 
+.Button {
+  border: none;
+  border-radius: 3px;
+}
+.Button:hover {
+  filter: brightness(0.8);
+  box-shadow: -7px 7px 20px rgba(111, 54, 255, 0.2), -7px 7px 20px rgba(111, 54, 255, 0.2);
+  cursor: pointer;
+}
+
 /*Start section Safety*/
 .Safety {
   margin-top: 200px;
@@ -58,14 +68,12 @@ body {
 }
 
 .Safety__button {
-  border: none;
   padding: 15px 24px;
   color: #ffffff;
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
   box-shadow: -7px 7px 20px rgba(111, 54, 255, 0.2);
-  border-radius: 3px;
   background-color: #845cff;
   margin-right: 35px;
 }
@@ -83,6 +91,7 @@ body {
   display: flex;
   justify-content: flex-end;
   background: url("../img/Move-bg.png") no-repeat left 50%;
+  margin-bottom: 226px;
 }
 
 .Move__container {
@@ -123,14 +132,12 @@ body {
 }
 
 .Move__button {
-  border: none;
   padding: 15px 24px;
   color: #ffffff;
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
   box-shadow: -7px 7px 20px rgba(111, 54, 255, 0.2);
-  border-radius: 3px;
   background-color: #845cff;
   margin-right: 35px;
 }
@@ -150,6 +157,12 @@ body {
 
 /*End section Move*/
 /*Start section Finances*/
+.Finances {
+  background-size: auto;
+  background: url("../img/Finances-bg.png") no-repeat top right;
+  padding-top: 74px;
+}
+
 .Finances__title {
   color: #32325d;
   font-size: 48px;
@@ -167,11 +180,11 @@ body {
 }
 
 .Finances__services {
-  margin-bottom: 110px;
   display: flex;
+  justify-content: space-between;
 }
-.Finances__services:first-child {
-  margin-bottom: 0;
+.Finances__services:first-of-type {
+  margin-bottom: 110px;
 }
 
 .Finances__item {
@@ -187,6 +200,7 @@ body {
   font-weight: 300;
   line-height: 3.1;
   position: relative;
+  padding-left: 40px;
 }
 .Finances__item p:before {
   position: absolute;
@@ -197,6 +211,8 @@ body {
   left: 0;
   bottom: 0;
   top: 0;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 /*End section Finances*/
