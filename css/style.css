@@ -19,204 +19,183 @@ body {
   cursor: pointer;
 }
 
-/*Start Header section*/
-.Header {
-  position: absolute;
+/*Start Ready*/
+.Ready {
+  background-color: #fafaff;
+  margin-top: 200px;
+  padding-top: 160px;
+  padding-bottom: 120px;
+}
+
+.Ready__container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  left: 0;
-  right: 0;
-  top: 50px;
-}
-.Header a {
-  text-decoration: none;
-  color: #32325d;
-  font-size: 19px;
-  font-weight: 700;
-  margin-right: 53px;
-}
-.Header button {
-  box-shadow: -7px 7px 20px rgba(132, 92, 255, 0.2);
-  background-color: #845cff;
-  padding: 12px 24px;
-  color: #ffffff;
-  font-size: 19px;
 }
 
-.Header__container {
+.Ready__title {
+  position: relative;
+  color: #212240;
+  font-size: 48px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.Ready__title:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 50px;
+  height: 10px;
+  top: -44px;
+  background-image: url("../img/Ready-icon.png");
+}
+
+.Ready__description {
+  color: #212240;
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.Ready__form {
+  display: flex;
+  padding: 32px 40px 30px 32px;
+  box-shadow: -7px 7px 20px rgba(212, 212, 250, 0.2);
+  border-radius: 5px;
+  background-color: #ffffff;
+  height: 80px;
+  box-sizing: border-box;
+}
+.Ready__form input {
+  padding: 0;
+  color: #8081ab;
+  font-size: 23px;
+  font-weight: 300;
+  letter-spacing: 0.02px;
+  border: none;
+}
+.Ready__form button {
+  background-color: transparent;
+  border: none;
+  color: #845cff;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
   display: flex;
   align-items: center;
+  padding: 0;
+}
+.Ready__form button img {
+  margin-left: 10px;
+}
+.Ready__form button:hover {
+  cursor: pointer;
 }
 
-.Header__menu a:last-child {
-  margin-right: 32px;
+/*End Ready*/
+/*Start Footer*/
+footer {
+  background-color: #212240;
+  color: #ffffff;
 }
 
-.Main-screen {
-  background-size: cover;
-  background: url("../img/header-bg.jpg") no-repeat;
-  min-height: 1271px;
+.Footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 150px;
 }
 
-.Main-screen__text {
-  padding-top: 378px;
-  max-width: 464px;
+.Footer__group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 8%;
+}
+.Footer__group a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
 }
 
-.Main-screen__title {
-  color: #32325d;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 1.29;
+.Footer__group1 {
+  margin-right: 25.6%;
+}
+
+.Footer__group2 a,
+.Footer__group3 a,
+.Footer__group4 a {
+  margin-bottom: 34px;
+}
+
+.Footer__group4 {
+  margin-right: 0;
+}
+
+.Footer__tel-EU {
+  margin-bottom: 14px;
+}
+
+.Footer__tel-US {
   margin-bottom: 50px;
 }
 
-.Main-screen__description {
-  margin-bottom: 42px;
-  color: #525f7f;
-  font-size: 23px;
-  font-weight: 300;
-  line-height: 1.39;
-}
-
-.Main-screen__button {
-  padding: 15px 24px;
-  text-transform: uppercase;
-  font-size: 15px;
-  color: white;
-  box-shadow: -7px 7px 20px rgba(111, 54, 255, 0.2);
-  background-color: #845cff;
-  margin-right: 34px;
-}
-
-.Main-screen__link {
-  font-size: 19px;
+.Footer__email {
   font-weight: 400;
-  color: #32325d;
-  text-decoration: none;
 }
 
-.About-us {
+.Footer__logo {
+  margin-bottom: 58px;
+  align-self: baseline;
+}
+
+.Footer__social {
   display: flex;
   justify-content: space-between;
-  margin-top: 134px;
+  margin-top: 50px;
 }
 
-.About-us__item {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: baseline;
-  width: 560px;
-  height: 479px;
-  box-shadow: -7px 7px 20px rgba(212, 212, 250, 0.2);
-  border-radius: 10px;
-  background-color: #ffffff;
-  padding-left: 60px;
-  padding-right: 75px;
-  padding-bottom: 95px;
-  box-sizing: border-box;
-  font-weight: 300;
-}
-.About-us__item img {
-  margin-bottom: 55px;
-}
-.About-us__item h3 {
-  font-size: 30px;
-  margin-bottom: 30px;
-  color: #212240;
-}
-.About-us__item p {
-  font-size: 18px;
-  line-height: 1.38;
-  color: #525f7f;
+.Footer__linked {
+  background-image: url("../img/Footer-icon.png");
+  width: 17px;
+  height: 16px;
 }
 
-.About-us__item1,
-.About-us__item3 {
-  margin-right: 115px;
+.Footer__facebook {
+  background: url("../img/Footer-icon.png") 102px;
+  width: 9px;
+  height: 16px;
 }
 
-.About-us__item1 {
-  background-color: transparent;
-  padding-bottom: 18px;
-  padding-left: 0;
-  padding-right: 36px;
-  box-shadow: none;
-  margin-bottom: 61px;
-}
-.About-us__item1 h3 {
-  font-size: 48px;
-  line-height: 1.29;
-  margin-bottom: 40px;
-  color: #32325d;
-}
-.About-us__item1 p {
-  font-size: 23px;
-  line-height: 1.39;
+.Footer__twitter {
+  background: url("../img/Footer-icon.png") 63px;
+  width: 17px;
+  height: 14px;
 }
 
-/*End Header section*/
-/*Start section Services*/
-.Services {
-  margin-top: 200px;
-  background-origin: border-box;
-  padding-bottom: 265px;
-  background: url("../img/Services-bg.jpg") no-repeat 50% 100%;
-  background-size: auto;
+.Footer__github {
+  background: url("../img/Footer-icon.png") 16px;
+  width: 16px;
+  height: 16px;
 }
 
-.Services__title {
-  margin-bottom: 40px;
-  font-size: 48px;
-  font-weight: 300;
-  color: #32325d;
-  text-align: center;
-}
-
-.Services__description {
-  margin-bottom: 145px;
-  color: #525f7f;
-  font-size: 23px;
-  font-weight: 300;
-  line-height: 1.39;
-  text-align: center;
-}
-
-.Services__group {
-  display: flex;
-  justify-content: space-between;
-}
-
-.Services__item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  max-width: 250px;
-  margin-bottom: 177px;
-}
-.Services__item img {
-  margin-bottom: 47px;
-}
-.Services__item h4 {
-  margin-bottom: 20px;
-  color: #212240;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 1.35;
-}
-.Services__item p {
-  color: #525f7f;
+.Footer__container2 {
+  padding: 0;
+  color: #555377;
   font-size: 16px;
   font-weight: 300;
-  line-height: 1.56;
+  margin-top: 143px;
+  padding-bottom: 100px;
 }
-.Services__item:last-child {
-  margin-bottom: 0;
+.Footer__container2 div {
+  display: flex;
+}
+.Footer__container2 div a {
+  text-decoration: none;
+  color: #555377;
+  margin-right: 20px;
+}
+.Footer__container2 div a:last-child {
+  margin-right: 0;
 }
 
-/*End section Services*/
+/*End Footer*/
 
 /*# sourceMappingURL=style.css.map */
