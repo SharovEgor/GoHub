@@ -16,7 +16,7 @@ body {
 .Button:hover {
   color: #CCCCCC;
   background-color: #6949CC;
-  box-shadow: -7px 7px 20px rgba(111, 54, 255, 0.2), -7px 7px 20px rgba(111, 54, 255, 0.2);
+  box-shadow: -7px 7px 20px rgba(111, 54, 255, 0.4);
   cursor: pointer;
 }
 
