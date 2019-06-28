@@ -24,6 +24,7 @@ body {
     cursor: pointer;
   }
 }
+
 /*Start Header section*/
 .Header {
   position: absolute;
@@ -173,6 +174,7 @@ body {
   background: url("../img/Services-bg.jpg") no-repeat 50% 100%;
   background-size: auto;
 }
+
 .Services__title {
   margin-bottom: 40px;
   font-size: 48px;
@@ -180,6 +182,7 @@ body {
   color: $color-headline;
   text-align: center;
 }
+
 .Services__description {
   margin-bottom: 145px;
   color: $color-description;
@@ -193,6 +196,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .Services__item {
   display: flex;
   flex-direction: column;
@@ -220,6 +224,7 @@ body {
     margin-bottom: 0;
   }
 }
+
 /*End section Services*/
 /*Start section Safety*/
 .Safety {
@@ -229,6 +234,7 @@ body {
   margin-bottom: 265-30px;
 
 }
+
 .Safety__title {
   color: $color-headline;
   font-size: 48px;
@@ -236,6 +242,7 @@ body {
   line-height: 1.29;
   margin-bottom: 40px;
 }
+
 .Safety__description {
   color: $color-description;
   font-size: 23px;
@@ -243,12 +250,14 @@ body {
   line-height: 1.39;
   margin-bottom: 57px;
 }
+
 .Safety__options {
   display: flex;
   margin-bottom: 56px;
   justify-content: space-between;
   max-width: 471px;
 }
+
 .Safety__items {
   max-width: 200px;
   h4 {
@@ -265,6 +274,7 @@ body {
     line-height: 1.56;
   }
 }
+
 .Safety__button {
   padding: 15px 24px;
   color: #ffffff;
@@ -275,12 +285,14 @@ body {
   background-color: $color-button;
   margin-right: 35px;
 }
+
 .Safety__link {
   color: $color-headline;
   font-size: 19px;
   font-weight: 400;
   text-decoration: none;
 }
+
 /*End section Safety*/
 /*Start section Move*/
 .Move {
@@ -289,9 +301,11 @@ body {
   background: url("../img/Move-bg.png") no-repeat left 50%;
   margin-bottom: 300px - 74px;
 }
+
 .Move__container {
   max-width: 555px;
 }
+
 .Move__title {
   color: $color-headline;
   font-size: 48px;
@@ -299,6 +313,7 @@ body {
   line-height: 1.29;
   margin-bottom: 40px;
 }
+
 .Move__description {
   color: $color-description;
   font-size: 23px;
@@ -306,6 +321,7 @@ body {
   line-height: 1.39;
   margin-bottom: 72px;
 }
+
 .Move__items {
   max-width: 200px;
   h4 {
@@ -322,6 +338,7 @@ body {
     line-height: 1.56;
   }
 }
+
 .Move__button {
   padding: 15px 24px;
   color: #ffffff;
@@ -332,17 +349,20 @@ body {
   background-color: $color-button;
   margin-right: 35px;
 }
+
 .Move__link {
   color: $color-headline;
   font-size: 19px;
   font-weight: 400;
   text-decoration: none;
 }
+
 .Move__options {
   display: flex;
   margin-bottom: 56px;
   justify-content: space-between;
 }
+
 /*End section Move*/
 /*Start section Finances*/
 .Finances {
@@ -350,12 +370,14 @@ body {
   background: url("../img/Finances-bg.png") no-repeat top right;
   padding-top: 74px;
 }
+
 .Finances__title {
   color: $color-headline;
   font-size: 48px;
   font-weight: 300;
   margin-bottom: 40px;
 }
+
 .Finances__description {
   color: $color-description;
   font-size: 23px;
@@ -364,6 +386,7 @@ body {
   margin-bottom: 167px;
   max-width: 658px;
 }
+
 .Finances__services {
   display: flex;
   justify-content: space-between;
@@ -371,6 +394,7 @@ body {
     margin-bottom: 110px;
   }
 }
+
 .Finances__item {
   color: $color-headline;
   h4 {
@@ -398,6 +422,7 @@ body {
     }
   }
 }
+
 /*End section Finances*/
 /*Start Ready*/
 .Ready {
